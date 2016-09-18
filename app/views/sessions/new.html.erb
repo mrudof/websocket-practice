@@ -1,0 +1,15 @@
+<h1>Log in!</h1>
+<%= form_for(:session, url: login_path) do |f| %>
+
+  <% if @error %>
+    <p> <%=@error%> </p>
+  <% end %>
+
+  <%= f.label :email %>
+  <%= f.email_field :email%>
+
+  <%= f.label :password %>
+  <%= f.password_field :password %>
+
+  <%= f.submit "Log in" %>
+<% end %>
