@@ -1,4 +1,4 @@
 <h2> Chatrooms </h2>
 <% @chatrooms.each do |chatroom| %>
-<%= link_to "#{chatroom.topic}", chatroom_path(chatroom) %>
+<%= link_to "#{chatroom.topic}", chatroom_path(chatroom) %><br>
 <% end %>

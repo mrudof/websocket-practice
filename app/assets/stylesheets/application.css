@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+body {
+  padding: 5px;
+}
+.scrolls {
+  max-height: 250px;
+}
+.navy {
+  max-height: 10px;
+}
